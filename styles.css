@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+#demo {
+  font-size: 8vw;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: .1em .6em;
+  border-radius: .3em;
+  -webkit-text-stroke: 1px solid #fff;
+}
+a {
+  color: #fff;
+}
